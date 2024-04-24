@@ -1,14 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "Backend Communication Extension",
+    "name": "Scribe AI",
     "version": "1.0",
-    "description": "Chrome extension to communicate with a backend server.",
+    "description": "Ask anything about the current youtube video",
     "permissions": ["activeTab"],
     "background": {
       "service_worker": "background.js"
     },
     "action": {
-      "default_popup": "popup.html",
+      "default_popup": "scribe_ai.html",
       "default_icon": {
         "16": "icon.png",
         "48": "icon.png",
@@ -20,5 +20,4 @@
       "48": "icon.png",
       "128": "icon.png"
     }
-  }
-  
+}
